@@ -28,6 +28,13 @@ AMD:
 require('applync')('app://xxx');
 ```
 
+## Reference
+
+- [The app: URI scheme - W3C](http://www.w3.org/TR/app-uri/)
+- [Intent | Android Developers](https://developer.android.com/reference/android/content/Intent.html)
+- [Enabling Deep Links for App Content | Android Developers](https://developer.android.com/training/app-indexing/deep-linking.html)
+- [Universal Links for Developers - Apple Developer](https://developer.apple.com/ios/universal-links/)
+
 ## License
 
 [MIT](./LICENSE)
