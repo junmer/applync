@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>app link example</title>
+    <script src="index.js"></script>
+</head>
+<body>
+
+<a href="javascript:openApp();">open app</a>
+
+<script>
+function openApp() {
+
+    var link = 'baiduboxapp://invokePlug?action=open&params=%7B%22plugin_id%22%3A%22box.plugin.dumiplugin%22%2C%22url%22%3A%22args%3Dsource_app%253Dbaiduboxapp%2526referer%253Dmydumi%2526method_name%253Dxiaodu%2526wd%3d%E5%85%A8%E6%99%AF%E7%9C%8B%E9%87%8C%E7%BA%A6%22%7D&minver=7.4.0.0'
+
+    applync(link);
+}
+</script>
+</body>
+</html>
