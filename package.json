@@ -1,10 +1,16 @@
 {
   "name": "applync",
-  "version": "1.0.1",
-  "description": "open app link in browsers",
+  "version": "1.0.2",
+  "description": "open app link (intent, deeplink, universallink) in browsers",
   "main": "index.js",
   "files": "index.js",
   "author": "junmer",
+  "keywords": [
+    "applink",
+    "intent",
+    "deeplink",
+    "universallink"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
